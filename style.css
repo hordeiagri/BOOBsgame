@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+canvas {
+    background: white;
+    border: 2px solid black;
+}
+
+/* Стили кнопок управления */
+#controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
